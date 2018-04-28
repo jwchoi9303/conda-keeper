@@ -3,7 +3,9 @@ A custom shell script to invoke / restrict the conda command.
 [intented to make ROS and anaconda work together well.]
 
 You may want to change the ANACONDA_PATH in conda-keeper.sh to your local path to anaconda binaries.
-  
+
+Note that pathremove(), pathprepend(), pathappend() functions are from: https://stackoverflow.com/a/47159781/9715444
+
 [How to setup]  
 cd ~  
 git clone https://github.com/jwchoi9303/conda-keeper  
