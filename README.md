@@ -5,10 +5,10 @@ A custom shell script to invoke / restrict the conda command.
 You may want to change the ANACONDA_PATH in conda-keeper.sh to your local path to anaconda binaries.
 
 [How to setup]
-cd ~
-git clone https://github.com/jwchoi9303/conda-keeper
-chmod +x ~/conda-keeper/conda-keeper.sh
-echo 'source ~/conda-keeper/conda-keeper.sh' >> ~/.bashrc
+cd ~  
+git clone https://github.com/jwchoi9303/conda-keeper  
+chmod +x ~/conda-keeper/conda-keeper.sh  
+echo 'source ~/conda-keeper/conda-keeper.sh' >> ~/.bashrc  
 
 [How to use]
 'hey-conda' adds the $ANACONDA_PATH(=${HOME}/anaconda2/bin) to $PATH
